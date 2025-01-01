@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>profile</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <style>
+    /* Agar footer selalu di bawah */
+    html, body {
+        height: 100%; /* Pastikan HTML dan body mengambil seluruh tinggi viewport */
+        margin: 0; /* Hapus margin default */
+    }
+
+    body {
+       
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: white;
+  padding: 0px 10px;
+  text-align: center;
+  height: 100vh;background-image: url('perpus4.jpg');
+  z-index: 50 ;
+  display: flex;
+  flex-direction: column; /* Atur arah layout menjadi kolom */
+    }
+
+    main {
+        flex: 1; /* Membuat konten utama mengisi ruang yang tersedia */
+    }
+
+    footer {
+        background-color: #343a40; /* Warna gelap untuk footer */
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+</style>
+</head>
+<body>
+<!-- Header -->
+<header class="bg-secondary text- white text-center py-3">
+    <h1>Profil Aplikasi</h1>
+</header>
+
+<!-- Konten Utama -->
+<main class="container my-5">
+  
+    <h2 class="text-white">Deskripsi Aplikasi</h2>
+    <p class="text-white"> aplikasi perpustakaan  adalah aplikasi yang memudahkan Anda mengakses koleksi buku secara online. Dengan aplikasi ini,Anda bisa dengan mudah meminjam buku, melihat riwayat peminjaman, dan mengecek status buku yang tersedia.</p>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Aplikasi Perpustakaan</p>
+</footer>
+</body>
+</html>
